@@ -7,7 +7,7 @@ function index()
 {
     var k ;
 
-if(sel.value=="name")
+if(sel.value=="Name")
 {
   k = 0;
 }
@@ -39,7 +39,7 @@ function renderHTML(data)
     var i ; 
     for(i = 0 ; i<data.length ; i++)
     {
-        htmlString+= "<tr><td>" +data[i].name+ "</td><td>" + data[i].email+ "</td></tr>";
+        htmlString+= "<tr><td>" +data[i].Name+ "</td><td>" + data[i].Branch+ "</td></tr>";
     }
      
     tab.insertAdjacentHTML('beforeend' , htmlString);
